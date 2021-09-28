@@ -1,0 +1,8 @@
+package com.company;
+
+class SensorSystem {
+
+}
+
+public class SecuritySensorSystem extends SensorSystem {
+}
