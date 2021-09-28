@@ -1,0 +1,23 @@
+package com.company;
+
+enum Type {
+       AlarmSystem;
+}
+public interface Alarm {
+       Type getType();
+
+}
+
+class PC implements Alarm {
+       @Override
+       public Type getType() {
+              return Type.AlarmSystem;
+       }
+
+       @Override
+       public String toString() {
+              return super.toString();
+       }
+       
+       
+       //Ignore that I chose enum for now, it's just a simple type for interface and if not want to use - let me know another alternative
